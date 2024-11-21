@@ -1,0 +1,17 @@
+# Git
+.git
+.gitignore
+
+# Docker
+.docker
+
+# Python - pycache can be specific for the os and it can create conflicts 
+# with the docker image
+app/__pycache__/
+app/*/__pycache__/
+app/*/*/__pycache__/
+app/*/*/*/__pycache__/
+# in case we created a local venv in our machine
+.env/
+.venv/
+venv/
